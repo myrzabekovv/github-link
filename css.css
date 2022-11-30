@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+  background-color:#2E4158;
+}
+
+.click {
+  display: flex;
+  justify-content: center;
+  margin: 20% auto;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  border: 5px solid black;
+  width: 431px;
+  height: 155px;
+  background: linear-gradient(180deg, #FF8DF4 0%, #9640DA 100%);
+  border: 5px solid #000000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(0.98);
+  box-shadow: 0px 0px 80px #9640DA;
+}
+
+button:active {
+  transform: translateY(4px);
+}
