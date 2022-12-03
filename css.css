@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
 body {
-  background-color:#2E4158;
+  background-color: #2E4158;
 }
 
-.click {
+.button {
   display: flex;
   justify-content: center;
   margin: 20% auto;
